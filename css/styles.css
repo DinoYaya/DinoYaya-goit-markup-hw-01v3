@@ -8,7 +8,7 @@ ul{list-style-type: none;}
 
 button{cursor: pointer;}
 
-.header-nav-link{
+.header-nav-link{font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
@@ -26,7 +26,7 @@ button{cursor: pointer;}
     color: #2E2F42
 }
 
-.span2{font-weight: 700;
+.span-span{font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
@@ -44,14 +44,10 @@ button{cursor: pointer;}
  .header-link:hover{color: #404BBF;
 }
 
-.header-link-1{font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2E2F42;}
- .header-link-1:hover{color: #404BBF;}
- .header-link-1:active{color: #404BBF;text-decoration: underline;
-}
+
+
+
+.header-address{font-style: normal;}
 
 .header-address-link{
     font-weight: 400;
@@ -60,6 +56,9 @@ button{cursor: pointer;}
     letter-spacing: 0.02em;
     color: #434455;}
     .header-address-link:hover{color: #404BBF;}
+        .header-address-link:active {
+            color: #404BBF;
+        }
 
 .main-section-title{background: #2E2F42;}
 
@@ -68,10 +67,10 @@ button{cursor: pointer;}
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color:#ffffff;}
 
-    .but1{
+    .but{
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -79,8 +78,11 @@ button{cursor: pointer;}
         color: #FFFFFF;
         
          background: #4D5AE5}
-         .but1:hover{background:#404BBF;color: #FFFFFF;
+         .but:hover{background-color:#404BBF;color: #FFFFFF;
     }
+        .but:active {
+            background-color: #404BBF;
+            color: #FFFFFF;}
 
 .main-section-features-sectit{
     font-weight: 500;
@@ -98,7 +100,9 @@ button{cursor: pointer;}
     color: #434455;
 }
 
-.main-section-team-title{
+.main-section-team{background-color: #F4F4FD;}
+
+.main-section-team-title{text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -106,7 +110,9 @@ button{cursor: pointer;}
     
     color: #2E2F42;}
 
-.main-section-team-tit2{
+    .team{background-color:#FFFFFF;}
+
+.main-section-team-tit-tit{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -124,7 +130,7 @@ button{cursor: pointer;}
     color:#434455;
 }
 
-.main-section-portfolio-title{
+.main-section-portfolio-title{text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -132,7 +138,7 @@ button{cursor: pointer;}
     
     color: #2E2F42;}
 
-.main-section-portfolio-tit3{font-weight: 500;
+.main-section-portfolio-tit-ti{font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
