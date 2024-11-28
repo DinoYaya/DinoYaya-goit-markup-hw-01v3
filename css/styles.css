@@ -67,7 +67,7 @@ button{cursor: pointer;}
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color:#ffffff;}
 
     .but{
@@ -107,7 +107,7 @@ button{cursor: pointer;}
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color: #2E2F42;}
 
     .team{background-color:#FFFFFF;}
@@ -135,7 +135,7 @@ button{cursor: pointer;}
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color: #2E2F42;}
 
 .main-section-portfolio-tit-ti{font-weight: 500;
