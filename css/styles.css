@@ -63,7 +63,7 @@ button{cursor: pointer;}
 
 .main-section-title{background: #2E2F42;}
 
-.main-title{
+.main-title{font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -77,7 +77,7 @@ button{cursor: pointer;}
         line-height: 150%;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        
          background: #4D5AE5}
          .but1:hover{background:#404BBF;color: #FFFFFF;
     }
@@ -103,7 +103,7 @@ button{cursor: pointer;}
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: #2E2F42;}
 
 .main-section-team-tit2{
@@ -111,7 +111,7 @@ button{cursor: pointer;}
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: #2E2F42;
 }
 
@@ -120,7 +120,7 @@ button{cursor: pointer;}
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color:#434455;
 }
 
@@ -129,7 +129,7 @@ button{cursor: pointer;}
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: #2E2F42;}
 
 .main-section-portfolio-tit3{font-weight: 500;
