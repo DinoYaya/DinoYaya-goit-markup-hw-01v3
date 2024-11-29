@@ -78,10 +78,10 @@ button{cursor: pointer;}
         color: #FFFFFF;
         
          background: #4D5AE5}
-         .but:hover{background-color:#404BBF;;
+         .but:hover{background-color:#404BBF;
     }
-        .but:active {
-            background-color: #404BBF;
+        .but:active{
+            background-color:#404BBF;
             }
 
 .main-section-features-sectit{
@@ -113,13 +113,16 @@ button{cursor: pointer;}
     
 
 .main-section-team-tit-tit{
-    font-weight: 500;
+   
+    background-color: #ffffff;
+    
+}
+
+.main-section-team-tit-t{font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    background-color: #ffffff;
-    color: #2E2F42;
-}
+    color: #2E2F42;}
 
 .main-section-team-par{
     font-weight: 400;
