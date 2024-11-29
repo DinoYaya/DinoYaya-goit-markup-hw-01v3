@@ -43,7 +43,7 @@ button{cursor: pointer;}
     
  .header-link:hover{color: #404BBF;
 }
-.header-link:active{color: #404bbf;}
+.header-link:active{color: #404bbf;text-decoration: underline;}
 
 
 
@@ -57,7 +57,7 @@ button{cursor: pointer;}
     color: #434455;}
     .header-address-link:hover{color: #404BBF;}
         .header-address-link:active {
-            color: #404BBF;
+            color: #404BBF; text-decoration: underline;
         }
 
 .main-section-title{background: #2E2F42;}
@@ -78,11 +78,11 @@ button{cursor: pointer;}
         color: #FFFFFF;
         
          background: #4D5AE5}
-         .but:hover{background-color:#404BBF;color: #FFFFFF;
+         .but:hover{background-color:#404BBF;;
     }
         .but:active {
             background-color: #404BBF;
-            color: #FFFFFF;}
+            }
 
 .main-section-features-sectit{
     font-weight: 500;
@@ -110,14 +110,14 @@ button{cursor: pointer;}
     text-align: center;
     color: #2E2F42;}
 
-    .team{background-color:#FFFFFF;}
+    
 
 .main-section-team-tit-tit{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    
+    background-color: #ffffff;
     color: #2E2F42;
 }
 
