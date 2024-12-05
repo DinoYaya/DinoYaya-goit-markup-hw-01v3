@@ -40,10 +40,6 @@ button {
   height: 72px;
 }
 
-.header-head {
-  display: flex;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
