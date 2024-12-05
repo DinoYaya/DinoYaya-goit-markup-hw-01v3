@@ -41,12 +41,15 @@ button {
 }
 
 .container {
-  width: 1440px;
-  margin-right: 156px;
-  margin-left: 156px;
-  padding-right: 24px;
-  padding-left: 24px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+
+.header-head {
+  display: flex;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -129,6 +132,8 @@ button {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 .header-link:hover {
@@ -236,6 +241,7 @@ button {
 
 .main-section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team {
@@ -341,6 +347,7 @@ button {
 .footer {
   background: #2e2f42;
   height: 312px;
+  padding: 100px 0;
 }
 
 .footer-par {
