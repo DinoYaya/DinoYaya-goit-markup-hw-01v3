@@ -46,10 +46,6 @@ button {
   padding: 0 15px;
 }
 
-.header-head {
-  display: flex;
-}
-
 .features-list {
   display: flex;
   gap: 24px;
