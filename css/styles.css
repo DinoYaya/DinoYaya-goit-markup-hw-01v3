@@ -145,10 +145,6 @@ button {
 .header-address {
   font-style: normal;
 }
-.header-address-list {
-  display: flex;
-  gap: 40px;
-}
 
 .header-address-link {
   font-weight: 400;
