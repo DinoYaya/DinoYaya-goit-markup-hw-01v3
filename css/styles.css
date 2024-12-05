@@ -25,6 +25,11 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+img {
+  display: block;
+}
+
 button {
   cursor: pointer;
 }
@@ -36,7 +41,7 @@ button {
 }
 
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin-right: 156px;
   margin-left: 156px;
   padding-right: 24px;
@@ -68,6 +73,7 @@ button {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
+  margin-right: 76px;
 }
 
 .header-nav-list {
@@ -76,6 +82,7 @@ button {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .span {
@@ -113,10 +120,9 @@ button {
 
 .header-address {
   font-style: normal;
+}
+.header-address-list {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: row;
   gap: 40px;
 }
 
