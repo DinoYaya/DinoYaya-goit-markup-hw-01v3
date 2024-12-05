@@ -178,7 +178,7 @@ button {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #fff;
   max-width: 496px;
 }
@@ -247,7 +247,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+
   gap: 24px;
 }
 
@@ -300,7 +300,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  flex-direction: column;
+
   gap: 8px;
   flex-wrap: wrap;
   column-gap: 24px;
