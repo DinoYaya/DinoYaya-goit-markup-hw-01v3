@@ -395,7 +395,7 @@ button {
   overflow: hidden;
 }
 
-.overlay-link:hover {
+.portfolio-list-one:hover .overlay-text {
   transform: translateY(0%);
 }
 
