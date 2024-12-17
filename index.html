@@ -393,7 +393,33 @@
         </div>
       </section>
     </main>
-
+    <div class="modal-overlay">
+      <div class="modal">
+        <form class="modal-form">
+          <fieldset class="modal-group">
+            <legend class="modal-title">
+              Leave your contacts and we will call you back
+            </legend>
+            <label class="modal-label">
+              Name<input class="modal-input" type="text" name="user_name" />
+            </label>
+            <label class="modal-label"
+              >Phone<input class="modal-input" type="tel" name="tel"
+            /></label>
+            <label class="modal-label">
+              Email<input class="modal-input" type="email" name="email"
+            /></label>
+            <label class="modal-label">
+              Comment<textarea
+                class="modal-input"
+                name="feedback"
+                rows="5"
+              ></textarea>
+            </label>
+          </fieldset>
+        </form>
+      </div>
+    </div>
     <footer class="footer">
       <div class="container footer-cont">
         <div class="footer-second-cont">
@@ -437,6 +463,20 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-modal">
+          <form class="footer-form">
+            <label class="footer-form-label"
+              >Subscribe<input
+                class="footer-form-input"
+                type="email"
+                name="user_eml"
+                placeholder="E-mail"
+              /><button class="footer-button" type="submit">
+                Subscribe
+              </button></label
+            >
+          </form>
         </div>
       </div>
     </footer>
