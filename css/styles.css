@@ -482,6 +482,10 @@ button {
   max-width: 264px;
 }
 
+.social-cont {
+  margin-right: 80px;
+}
+
 .social-par {
   font-weight: 500;
   font-size: 16px;
@@ -521,10 +525,7 @@ button {
   fill: #f4f4fd;
 }
 
-.footer-form {
-}
-
-.footer-form-label {
+.form-par {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -533,8 +534,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-form-label {
   display: flex;
-  flex-direction: column;
+  gap: 24px;
 }
 
 .footer-form-input {
@@ -542,6 +547,17 @@ button {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.footer-form-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-button {
@@ -561,10 +577,15 @@ button {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   border: none;
+}
+
+.footer-button-svg {
+  margin-left: 16px;
+  fill: #fff;
 }
 
 .modal-overlay {
@@ -575,21 +596,61 @@ button {
   width: 100%;
   height: 100%;
   z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
   border-radius: 4px;
   width: 408px;
-  height: 584px;
+  min-height: 584px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
-.modal-title {
+.modal-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.modal-button-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
+}
+
+.modal-button-svg:hover,
+.modal-button-svg:focus {
+  fill: #ffffff;
+}
+
+.modal-par {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;

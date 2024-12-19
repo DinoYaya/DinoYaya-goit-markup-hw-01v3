@@ -393,33 +393,7 @@
         </div>
       </section>
     </main>
-    <div class="modal-overlay">
-      <div class="modal">
-        <form class="modal-form">
-          <fieldset class="modal-group">
-            <legend class="modal-title">
-              Leave your contacts and we will call you back
-            </legend>
-            <label class="modal-label">
-              Name<input class="modal-input" type="text" name="user_name" />
-            </label>
-            <label class="modal-label"
-              >Phone<input class="modal-input" type="tel" name="tel"
-            /></label>
-            <label class="modal-label">
-              Email<input class="modal-input" type="email" name="email"
-            /></label>
-            <label class="modal-label">
-              Comment<textarea
-                class="modal-input"
-                name="feedback"
-                rows="5"
-              ></textarea>
-            </label>
-          </fieldset>
-        </form>
-      </div>
-    </div>
+
     <footer class="footer">
       <div class="container footer-cont">
         <div class="footer-second-cont">
@@ -465,20 +439,59 @@
           </ul>
         </div>
         <div class="footer-modal">
+          <p class="form-par">Subscribe</p>
           <form class="footer-form">
             <label class="footer-form-label"
-              >Subscribe<input
+              ><input
                 class="footer-form-input"
                 type="email"
                 name="user_eml"
-                placeholder="E-mail"
-              /><button class="footer-button" type="submit">
+                placeholder="E-mail" /><button
+                class="footer-button"
+                type="submit"
+              >
                 Subscribe
-              </button></label
-            >
+                <svg class="footer-button-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg></button
+            ></label>
           </form>
         </div>
       </div>
     </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="modal-button" type="button">
+          <svg class="modal-button-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-par">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div>
+            <label class="modal-label"
+              >> Name
+              <div>
+                <input class="modal-input" type="text" name="user_name" />
+              </div>
+            </label>
+          </div>
+
+          <label class="modal-label"
+            >Phone<input class="modal-input" type="tel" name="tel"
+          /></label>
+          <label class="modal-label">
+            Email<input class="modal-input" type="email" name="email"
+          /></label>
+          <label class="modal-label">
+            Comment<textarea
+              class="modal-input"
+              name="feedback"
+              rows="5"
+            ></textarea>
+          </label>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
