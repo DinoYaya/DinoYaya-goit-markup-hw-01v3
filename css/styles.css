@@ -655,6 +655,10 @@ button {
   fill: #ffffff;
 }
 
+.modal-button:focus .modal-button-svg {
+  fill: #ffffff;
+}
+
 .modal-par {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
