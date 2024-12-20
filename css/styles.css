@@ -643,6 +643,7 @@ button {
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-button-svg {
@@ -653,6 +654,10 @@ button {
 .modal-button-svg:hover,
 .modal-button-svg:focus {
   fill: #ffffff;
+}
+
+.modal-button:hover .modal-button-svg {
+  fill: #fff;
 }
 
 .modal-par {
@@ -697,6 +702,7 @@ button {
   height: 40px;
   width: 100%;
   background-color: transparent;
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -712,7 +718,7 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus .modal-input-svg {
+.modal-input:focus-within .modal-input-svg {
   fill: #4d5ae5;
 }
 
